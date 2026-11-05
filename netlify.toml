@@ -1,0 +1,5 @@
+# This repo is a Python/Streamlit app, not a Hugo site. Netlify auto-detected
+# Hugo because of config.yaml, so override the build to serve a static page.
+[build]
+  command = "echo 'No build step: serving static placeholder from public/'"
+  publish = "public"
